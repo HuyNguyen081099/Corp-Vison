@@ -1,0 +1,51 @@
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+body, html {
+    scroll-behavior: smooth;
+    color: #636363;
+    font-family: "jost", sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.container {
+    margin: auto;
+    max-width: 1199px;
+}
+/* .text-center{
+    text-align: center;
+}
+.theme-switch-wrapper{
+    display: flex;
+    align-items: center;
+}
+.theme-switch{
+    display: inline-block;
+    position: relative;
+    margin: 0;
+}
+.theme-switch input{
+    display: none;
+}
+.input[type="checkbox"]{
+    box-sizing: border-box;
+    padding: 0;
+}
+.mode-container{
+    width: 24px;
+    height: 24px;
+    padding: 1px 0;
+}
+.mode-container i.gg-sun{
+    display: none;
+}
+.mode-container i.gg-sun{
+    display: none;
+} */
