@@ -1,4 +1,3 @@
-
 header {
     position: absolute;
     top: 0;
@@ -7,7 +6,8 @@ header {
     z-index: 999;
 }
 
-body, html {
+body,
+html {
     scroll-behavior: smooth;
     color: #636363;
     font-family: "jost", sans-serif;
@@ -15,10 +15,37 @@ body, html {
     line-height: 1.6;
 }
 
+.navbar-brand p {
+    margin-bottom: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#portnavbar li {
+    font-size: 18px;
+}
+
 .container {
     margin: auto;
     max-width: 1199px;
 }
+
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.navbar-brand i {
+    color: rgb(28, 171, 92);
+}
+
+.navbar {
+    justify-content: space-between;
+}
+
 /* .text-center{
     text-align: center;
 }
@@ -49,3 +76,46 @@ body, html {
 .mode-container i.gg-sun{
     display: none;
 } */
+#carouselExampleCaptions .carousel-item {
+    height: 100vh;
+}
+
+#carouselExampleCaptions .carousel-item>img {
+    height: 100%;
+    filter: brightness(60%);
+    object-fit: cover;
+}
+
+/* .carousel-control-prev {
+    right: 95px;
+}
+
+.carousel-control-next .carousel-control-prev {
+    position: absolute;
+
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+} */
+
+#carouselExampleCaptions .carousel-caption h1 {
+    font-size: 60px;
+}
+
+#carouselExampleCaptions .carousel-caption p {
+    font-size: 20px;
+}
+
+#carouselExampleCaptions .carousel-caption {
+    top: 30%;
+    right: 50%;
+    text-align: left;
+    /* transform: translate(-50%, -50%); */
+    width: 50%;
+}
