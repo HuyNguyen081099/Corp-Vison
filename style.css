@@ -82,27 +82,28 @@ html {
 
 #carouselExampleCaptions .carousel-item>img {
     height: 100%;
-    filter: brightness(60%);
+    filter: brightness(50%);
     object-fit: cover;
+    /* background-size: cover;
+    background-repeat: no-repeat,
+    no-repeat,
+    no-repeat;
+    background-position: top; */
 }
-
-/* .carousel-control-prev {
-    right: 95px;
-}
-
-.carousel-control-next .carousel-control-prev {
-    position: absolute;
-
+/* 
+.carousel-control-prev {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50px;
+    background-color: aqua;
+    text-align: end;
     bottom: 0;
-    z-index: 1;
-    display: -ms-flexbox;
-    display: flex;
-    justify-content: center;
-    width: 15%;
-    padding: 0;
-    color: #fff;
-    text-align: center;
 } */
+
+.carousel-control-next 
+.carousel-control-prev {
+}
 
 #carouselExampleCaptions .carousel-caption h1 {
     font-size: 60px;
