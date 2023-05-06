@@ -46,10 +46,8 @@ html {
 .navbar {
     justify-content: space-between;
 }
-h2.title {
-    color: #fff;
-    font-size: 50px;
-    font-weight: 600;
+
+/* .text-center{
     text-align: center;
     margin-top: 50px; }
   
@@ -59,4 +57,95 @@ h2.title {
     opacity: 0.7; }
 
 
+.box-wrap img {
+    max-width: 65px;
+    display: block;
+    margin: 0 auto;
+}
+.box-wrap:hover{
+    transform: translateY(-5px);
+    transition-property: initial;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;;
+}
+.title-head:hover{
+    color:rgb(28, 171, 92) ;
+    opacity: 1;
+}
+.margin_btn{
+    padding: 20px 0 0 0;
+}
+.ttt_button {
+    padding: 15px 50px;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+    /* transition: 0.3s ease-in; */
+    border-radius: 10px;
+    background-color: rgb(28, 171, 92);
+    color: aliceblue;
+    list-style: none;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.call-grids-w3 h4 a{
+    text-decoration: none;
+}
 
+
+/* services_content */
+.services_content{
+    padding: 60px 0 60px 0;
+}
+.card{
+    border: 0;
+}
+.container h3{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(53, 36, 96);
+    margin-bottom: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.services_layout{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    text-align: center;
+    gap: 30px;
+}
+.blog-info{
+    padding: 0 20px;
+    position: relative;
+}
+.blog-info .title_services{
+    font-size: 19px;
+    line-height: 28px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    background: white;
+    padding: 12px 35px;
+    display: inline-block;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    transform: translateY(-25px);
+    box-shadow: rgba(1, 1, 1, 0.05) 1px 1px 5px 0px;
+    text-decoration: none;
+}
+.title_services:hover{
+    color:rgb(28, 171, 92) ;
+}
+.btn-style1{
+    padding: 8px 35px;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+    transition: 0.3s ease-in;
+    color: var(--heading-color);
+    border-radius:10px;
+    margin-bottom: 20px;
+}
+.btn-style1:hover{
+    color:rgb(28, 171, 92) ;
+}
