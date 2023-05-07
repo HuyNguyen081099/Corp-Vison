@@ -94,7 +94,6 @@ html {
     align-items: \;
 }
 
-
 .navbar-brand p {
     margin-bottom: 0;
     text-align: center;
@@ -124,6 +123,12 @@ html {
 
 .navbar {
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid #919191;
+    
 }
 
 /* .text-center{
@@ -181,7 +186,27 @@ html {
     text-align: end;
     bottom: 0;
 } */
+header.sticky {
+    padding: 0px;
+    background-color: white;
+    height: 80px;
+    border-bottom: none;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
+        }
+.navbar .sticky{
+            background-color: white;
+        }
+    .sticky .navbar-expand-lg .navbar-brand {
+        color: #3f3a64;
 
+    }
+    .sticky .navbar-dark .navbar-nav .nav-link {
+       color: #3f3a64;
+      
+    }
+
+
+    
 .carousel-control-next .carousel-control-prev {}
 
 #carouselExampleCaptions .carousel-caption h1 {
@@ -437,7 +462,7 @@ h6 {
 .col-lg-4 {
     flex: 0 0 33.33333%;
     max-width: 33.33333%;
-    padding-top: 20px;
+   padding-bottom: 30px;
 }
 .w3l-gallery h3.title-small {
     font-size: 16px;
@@ -451,6 +476,7 @@ h6 {
 .w3l-gallery a.zoom {
     overflow: hidden;
     position: relative;
+    
 }
 .pt-lg-2 {
     padding-top: 0.5rem !important;
@@ -694,6 +720,15 @@ li::marker{
     box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.04);
     border: 1px solid var(--border-color);
 }
+.card-body a{
+    color: rgb(69, 74, 80);
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover{
+    color: #24a339;
+}
+
 .card-body {
     flex: 1 1 auto;
     min-height: 1px;
@@ -719,6 +754,9 @@ li::marker{
     margin-top: 10px;
     text-decoration: none;
 }
+a:hover.blog-desc{
+    color: #24a339;
+}
 .card-footer .author {
     display: grid;
     grid-template-columns: auto 1fr auto;
@@ -732,8 +770,6 @@ li::marker{
     height: 40px;
 }
 
-.element.style {
-}
 .w3l-blog span.meta-value {
     color: var(--font-color);
     font-size: 15px;
@@ -746,13 +782,16 @@ li::marker{
     font-weight: 600;
     line-height: 26px;
     text-transform: capitalize;
+    text-decoration: none;
+}
+a:hover {
+    color: #24a339;
 }
 .card-footer {
     background: white;
     border-top: 1px solid ;
 }
-.element.style {
-}
+
 .date p {
     font-size: 15px;
 }
