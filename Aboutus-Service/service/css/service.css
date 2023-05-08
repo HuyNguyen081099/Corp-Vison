@@ -1,0 +1,101 @@
+h3.title-service {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+}
+.service-grid-left {
+    background: #fff;
+    padding: 45px 50px;
+    text-align: center;
+}
+.service-grid-right img {
+    width: 100%;
+}
+.w3l-features {
+    background: #f7f7f7;
+}
+/* w3l-aboutblock1 */
+.title-content {
+    max-width: 800px;
+    margin: auto;
+}
+.text-center {
+    text-align: center !important;
+}
+.justify-content-center {
+    justify-content: center !important;
+}
+.w3l-aboutblock1 .area-box {
+    padding: 50px 35px;
+    position: relative;
+    z-index: 1;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    box-shadow: 0 1rem 2rem var(--box-shadow-color);
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 20px;
+}
+.w3l-aboutblock1 .area-box i {
+    font-size: 38px;
+    width: 40px;
+    color: #009f4d;
+}
+/* w3l-quote-6 */
+.align-items-center {
+    align-items: center !important;
+}
+.w3l-quote-6 .quote-sec-info {
+    padding: 30px 0px;
+    border-bottom: 1px solid #aaa;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 30px;
+    align-items: center;
+}
+.w3l-quote-6 .appyl-sub-icon i{
+    font-size: 40px;
+    /* color: var(--primary-color); */
+    color: #fff;
+}
+.w3l-quote-6 .quote-form {
+    background: #fff;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -o-border-radius: 8px;
+    -moz-border-radius: 8px;
+    padding: 60px;
+}
+.appyl-sub-icon-info ,.appyl-sub-icon-info a {
+    color: white;
+}
+/* w3l-features box-wrap */
+.w3l-features .box-wrap {
+    padding: 40px 30px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: rgba(1, 1, 1, 0.05) 1px 1px 5px 0px;
+    background-color: #fff;
+    transition: .3s ease;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -ms-transition: .3s ease;
+    -o-transition: .3s ease;
+    }
+    .w3l-features .box-wrap:hover {
+        transform: translateY(-0.25rem);
+        box-shadow: rgba(46, 41, 51, 0.08) 0px 2px 4px, rgba(71, 63, 79, 0.16) 0px 5px 10px;
+        transition: .3s ease;
+        -webkit-transition: .3s ease;
+        -moz-transition: .3s ease;
+        -ms-transition: .3s ease;
+        -o-transition: .3s ease; }
+.box-wrap .icon{
+    padding-bottom: 30px;
+}
+.box-wrap a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
