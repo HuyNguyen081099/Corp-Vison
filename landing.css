@@ -486,6 +486,7 @@ h6 {
     letter-spacing: 1px;
     color: #7e7d7d;
     display: block;
+    text-align: center;
 }
 .w3l-gallery a.zoom {
     overflow: hidden;
@@ -886,6 +887,8 @@ form.subscribe {
     color: #24a339;
     margin-right: 5px;
     vertical-align: bottom;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 .w3l-footer-29-main .navbar-brand span.logo {
     text-transform: none;
@@ -1328,8 +1331,13 @@ div#small-dialog iframe {
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+.w3l-aboutblock1 .title-big{
+    text-align: left;
 
+}
 .w3l-aboutblock1 .area-box {
     padding: 50px 35px;
     position: relative;
@@ -1366,6 +1374,9 @@ div#small-dialog iframe {
 /* Aboutpage with image section */
 .w3l-about2 {
     background: #f8f9fa;
+}
+.w3l-about2 .title-big{
+    text-align: left;
 }
 
 .w3l-about2 .cwp23-text-cols {
@@ -1456,6 +1467,10 @@ div#small-dialog iframe {
 /* AboutPage team */
 .w3l-team {
     background: #fff;
+}
+.w3l-team .title-big{
+    text-align: center;
+    max-width: 1400px;
 }
 
 .team-member,
@@ -1834,6 +1849,8 @@ div#small-dialog iframe {
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 15px;
+    margin-top: 0;
+    text-align: left;
 }
 .text-box p{
     margin-bottom: 0;
